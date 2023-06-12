@@ -1,0 +1,637 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  /* display: flex;
+  place-items: center; */
+  max-width: 1500px;
+  max-height: 3600px;
+  /* background-color: rgb(245, 6, 6); */
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+/*//////////////////////// My Styling //////////////////*/
+
+/* ////////////Shared layout//////////// */
+.Sharedlayout {
+  /* position: absolute; */
+  margin-top: -30px;
+  /* min-width: 1000px; */
+}
+
+.links-stylying {
+  margin-right: 20px;
+  color: #f9f9f9;
+  /* margin-top: 130px; */
+  /* background-color: #1a1a1a; */
+}
+.img {
+  position: relative;
+  margin-top: 20px;
+  margin-right: 250px;
+}
+
+.link-positioning {
+  width: 1010px;
+  position: absolute;
+  height: 70px;
+  background-color: rgb(16, 16, 16);
+  margin-bottom: 15px;
+  border-bottom: 0.5px solid #f9f9f947;
+  margin-left: 130px;
+  margin-top: 30px;
+}
+
+.cart {
+  margin-left: 204px;
+}
+
+/* //////////////Home Page Styling/////////////// */
+.Home-container {
+  margin-top: 60px;
+  background-color: white;
+  min-height: fit-content;
+}
+.img1 {
+  max-width: 120%;
+  max-height: 120%;
+  border-style: none;
+  outline: none;
+}
+.Home-article-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1470px;
+  height: 700px;
+  margin-left: -95px;
+  margin-top: -100px;
+  background-color: rgba(16, 16, 16);
+}
+
+.new-product {
+  position: relative;
+  color: rgba(255, 255, 255, 0.464);
+  letter-spacing: 9px;
+  margin-top: 15px;
+  margin-right: 110px;
+}
+.img1-container {
+  position: relative;
+  height: 300px;
+}
+
+.img1-Text {
+  position: relative;
+  color: #f9f9f9;
+  width: 350px;
+  margin-right: 50px;
+}
+
+p {
+  font-size: smaller;
+  color: rgba(255, 255, 255, 0.464);
+}
+
+.btn-1 {
+  margin-top: 10px;
+  margin-right: 140px;
+  border-radius: 0px;
+  background-color: orange;
+}
+
+.Home-article-2 {
+  min-width: 320px;
+  height: fit-content;
+  margin-top: -30px;
+  /* background-color: #f30b0b; */
+}
+.Home-article-3 {
+  min-width: 320px;
+  margin-top: -800px;
+  background-color: #f30b0b;
+}
+.Home-article-4 {
+  min-width: 320px;
+  background-color: #f9f9f9;
+}
+
+.Home-article-5 {
+  min-width: 320px;
+  background-color: #f9f9f9;
+}
+
+/* ///////Display one styling///////// */
+.Display_one-container {
+  display: flex;
+  margin-top: 900px;
+  background-color: rgb(255, 81, 0);
+  height: 500px;
+}
+
+.Display_one-img-container img {
+  max-width: 80%;
+  max-height: 80%;
+  outline: transparent;
+  margin-top: 60px;
+  margin-left: 280px;
+}
+.Display_one-text-container {
+  margin-left: 50px;
+}
+.Display_one-text-container h1 {
+  margin-right: 135px;
+  text-indent: 0em;
+  text-align: justify;
+}
+.Display_one-text-container p {
+  color: #1a1a1a;
+  text-indent: 0em;
+  text-align: justify;
+}
+.Display_one-text-container button {
+  background-color: #1a1a1a;
+  color: #f9f9f9;
+  border-radius: 0px;
+  margin-right: 135px;
+}
+/* ///////Display two styling///////// */
+
+.Display_two-container {
+  display: flex;
+  background-color: rgb(255, 0, 149);
+  height: 500px;
+  margin-top: 100px;
+  background-image: url(/image-speaker-zx7.jpg);
+  background-repeat: no-repeat;
+  /* background-size: 1000px 900px; */
+  background-size: 1280px 500px;
+  text-align: center;
+  padding: 5px;
+  height: 290px;
+}
+
+.Display_two-container img {
+  width: 2px;
+}
+
+
+/* ////////////Display_three styling /////////*/
+.Display_three-container{
+display: flex;
+  /* background-color: rgb(255, 0, 149); */
+  margin-top: 100px;
+  /* height: 500px;
+  margin-top: 100px;
+  text-align: center;
+  padding: 5px;
+  height: 450px; */
+  background-color: #fa0101;
+}
+.Display_three-img{
+   display: flex;
+  /* background-color: rgb(255, 0, 149); */
+  width: 700px;
+}
+.Display_three-info{
+  margin-left: 40px;
+}
+.btn-2{
+ background-color: #646cff;
+ margin-bottom: 40px;
+}
+/* /////Commonitemsstylying/////// */
+.Commonitems-section {
+  display: flex;
+  min-width: 1460px;
+  height: 300px;
+  /* background-color: #f30b0b; */
+  margin-left: -89px;
+  margin-top: 260px;
+  justify-content: center;
+  align-items: center;
+}
+.Commonitems-rendring {
+  position: absolute;
+  margin-top: -340px;
+  display: flex;
+  justify-content: center;
+  min-height: 300px;
+  min-width: 1460px;
+  margin-left: -89px;
+}
+
+/* ///////commitem component styling//////////// */
+.commitem-container {
+  background-color: rgb(245, 245, 245);
+  margin-top: 200px;
+
+  min-width: 300px;
+  height: 150px;
+  font-size: smaller;
+  margin-left: 100px;
+}
+.commitem-container button {
+  width: 90px;
+  background-color: whitesmoke;
+}
+.commitem-container h4 {
+  margin-top: 80px;
+  position: relative;
+}
+
+.Rendring-img {
+  margin-top: -120px;
+  position: absolute;
+  max-width: 80%;
+  max-height: 60%;
+  border-style: none;
+  outline: none;
+  margin-left: -120px;
+}
+.speakerRendring-img{
+ margin-top: -130px;
+  position: absolute;
+  max-width: 80%;
+  max-height: 50%;
+  border-style: none;
+  outline: none;
+  margin-left: -80px;
+
+}
+/*/////////// Human component styling ////////// */
+.Human-container {
+  display: flex;
+  margin-top: 50px;
+  /* background-color: #535bf2; */
+  /* width: 1320px; */
+}
+
+.humanimgimg {
+  position: relative;
+  max-width: 45%;
+  max-height: 45%;
+  margin-left: 270px;
+}
+.humanimg-Text {
+  /* background-color: aqua; */
+  /* margin-left: 20px; */
+}
+
+.Best {
+  color: orange;
+  /* font-size: smaller; */
+  margin-left: 28px;
+}
+
+.humanimgText-paragraph {
+}
+.commonitems-paragraph {
+  color: #1a1a1a;
+  display: flex;
+  text-indent: 0em;
+  text-align: justify;
+  margin-left: 30px;
+}
+
+/*///////// Footer styling  ///////////*/
+.Footer-container {
+  min-height: 330px;
+  width: 1470px;
+  margin-top: 200px;
+  margin-left: -95px;
+  background-color: rgb(18, 19, 19);
+}
+
+.Footer-article {
+  display: flex;
+  align-items: center;
+}
+.Footer-text {
+  display: flex;
+  align-items: center;
+
+  margin-top: 90px;
+  margin-left: 124px;
+}
+
+.Copyright-text {
+  position: absolute;
+  margin-top: 300px;
+  margin-right: 700px;
+}
+.Footer-icons {
+  margin-top: 200px;
+  margin-left: 480px;
+  color: white;
+  font-size: 30px;
+}
+
+/* //////////////////Headphones page//////////////////////////// */
+
+.Header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1490px;
+  height: 300px;
+  margin-left: -105px;
+  margin-top: -40px;
+  color: white;
+  background-color: rgba(16, 16, 16);
+}
+
+.Header h1 {
+  font-size: 40px;
+  margin-top: 130px;
+  /* margin-left: 200px; */
+}
+
+.Headphones-one {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 200px;
+  width: 1200px;
+}
+.Headphones-img1 img {
+  width: 550px;
+  margin-right: 80px;
+}
+.Headphones-info1 {
+  /* margin-left: 20px; */
+  font-size: smaller;
+}
+.Headphones-info1 h4 {
+  color: orange;
+}
+
+.Headphones-info1 h1 {
+  margin-top: -10px;
+  margin-left: -30px;
+}
+.Headphones-info1 p {
+  margin-top: -10px;
+  margin-left: 30px;
+  text-indent: 0em;
+  text-align: justify;
+  color: rgb(16, 15, 15);
+}
+
+.Headphones-two {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 200px;
+  width: 1200px;
+}
+.Headphones-img2 img {
+  width: 550px;
+  margin-left: 700px;
+}
+.Headphones-info2 {
+  position: absolute;
+  margin-left: -700px;
+  font-size: smaller;
+}
+.Headphones-info2 h4 {
+  color: orange;
+}
+
+.Headphones-info2 h1 {
+  margin-top: -10px;
+  margin-left: -30px;
+}
+.Headphones-info2 p {
+  margin-top: -10px;
+  margin-left: 30px;
+  text-indent: 0em;
+  text-align: justify;
+  color: rgb(16, 15, 15);
+}
+
+.Headphones-three {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 200px;
+  width: 1200px;
+}
+.Headphones-img3 img {
+  width: 550px;
+  margin-right: 80px;
+}
+.Headphones-info3 {
+  /* margin-left: 20px; */
+  font-size: smaller;
+}
+.Headphones-info3 h4 {
+  color: orange;
+}
+
+.Headphones-info3 h1 {
+  margin-top: -10px;
+  margin-left: -30px;
+}
+.Headphones-info3 p {
+  margin-top: -10px;
+  margin-left: 30px;
+  text-indent: 0em;
+  text-align: justify;
+  color: rgb(16, 15, 15);
+}
+/* //////////HeadphonesSinglproduct styling  */
+
+.HeadphonesSinglproduct-container {
+  /* background-color:rgb(16, 15, 15); */
+  margin-top: -68px;
+  margin-left: -98px;
+  width: 1470px;
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+}
+.Navication-back {
+  background-color: rgb(16, 15, 15);
+  color: rgb(16, 15, 15);
+  height: 100px;
+  margin-top: -10px;
+
+  /* margin-top: 100px; */
+}
+
+.Linkto-home {
+  position: absolute;
+
+  margin-left: -520px;
+  margin-top: 100px;
+}
+.Headphones-Singlproduct {
+  display: flex;
+  margin-top: 300px;
+  width: 1000px;
+  margin-left: 200px;
+  height: 500px;
+}
+
+.HeadphonesSinglproduct-info {
+  /* background-color: #f30b0b; */
+  display: flex;
+  margin-top: 100px;
+  width: 1000px;
+  margin-left: 200px;
+  height: 500px;
+}
+.HeadphonesSinglproduct-info1 {
+  /* background-color: #535bf2; */
+}
+.HeadphonesSinglproduct-info2 {
+  margin-left: 180px;
+  margin-top: 20px;
+}
+.HeadphonesSinglproduct-info2 li {
+  list-style: none;
+  /* background-color: #535bf2; */
+  margin-left: -23px;
+  width: 400px;
+  text-indent: 0em;
+  text-align: justify;
+}
+.HeadphonesSinglproduct-info2 span {
+  color: orange;
+  margin-right: 20px;
+  /* background-color: #f30b0b; */
+}
+.HeadphonesSinglproduct-info2 p {
+  color: #1a1a1a;
+}
+.HeadphonesSinglproduct-info1 h2 {
+  margin-left: -450px;
+}
+.HeadphonesSinglproduct-info2 h2 {
+  margin-left: 12px;
+  /* background-color: #242424; */
+  width: 150px;
+}
+.HeadphonesSinglproduct-info1 p {
+  text-indent: 0em;
+  text-align: justify;
+  width: 560px;
+  color: #1a1a1a;
+}
+.Gallery {
+  display: flex;
+  margin-top: 10px;
+  width: 400px;
+  margin-left: 200px;
+  height: 500px;
+ 
+}
+.img11 {
+  width: 20px;
+}
+.image1 {
+  width: 320px;
+  height: 230px;
+}
+
+.bottom {
+  margin-top: 10px;
+}
+.image12 {
+  width: 530px;
+  margin-left: 150px;
+}
+
+.Others {
+  display: block;
+  margin-top: 300px;
+  width: 1020px;
+  margin-left: 200px;
+  height: 500px;
+
+  /* background-color: rgb(225, 20, 20); */
+  /* margin-top: -140px;
+
+  min-width: 300px;
+  height: 150px;
+  font-size: smaller;
+  margin-left: 100px; */
+}
+.Others-content {
+  display: flex;
+}
+.others1-img {
+  width: 320px;
+  height: 230px;
+  margin-right: 30px;
+}
+.btn2 {
+  background-color: orange;
+}
+/* ///////////////////////////////////////////// */
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
